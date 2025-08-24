@@ -43536,7 +43536,7 @@ s=p}while(true)switch(s){case 0:p=4
 if(a.length===0||b.length===0){A.eR($.aA(),"Error","Please enter both email and password",null)
 q=!1
 s=1
-break}h=A.eI("http://203.161.48.148:8000/api/auth/login/",0,null)
+break}h=A.eI("https://juwel.sobkino.com/api/auth/login/",0,null)
 g=t.N
 f=A.al(["Content-Type","application/json"],g,g)
 s=7
@@ -43592,7 +43592,7 @@ var $async$rC=A.B(function(e,a0){if(e===1){o.push(a0)
 s=p}while(true)switch(s){case 0:p=4
 h=t.N
 s=7
-return A.M(A.aFD(A.eI("http://203.161.48.148:8000/api/auth/registration/",0,null),B.az.hA(A.al(["email",a,"username",d,"password1",b,"password2",c],h,h)),A.al(["Content-Type","application/json"],h,h)),$async$rC)
+return A.M(A.aFD(A.eI("https://juwel.sobkino.com/api/auth/registration/",0,null),B.az.hA(A.al(["email",a,"username",d,"password1",b,"password2",c],h,h)),A.al(["Content-Type","application/json"],h,h)),$async$rC)
 case 7:m=a0
 s=m.b===201?8:10
 break
@@ -44359,7 +44359,7 @@ n=h.dd(0,null,t.d)
 m=n.ay.gm(0)
 if(J.bX(m)===0){A.d5("Error: User is not authenticated.")
 s=1
-break}h=A.eI("http://203.161.48.148:8000/api/create-bkash-payment/",0,null)
+break}h=A.eI("https://juwel.sobkino.com/api/create-bkash-payment/",0,null)
 g=t.N
 f=A.al(["Content-Type","application/json","Authorization","Bearer "+A.l(m)],g,g)
 s=7
@@ -44429,7 +44429,7 @@ r=t.w
 q=A.ba(s,e,r).w.a.a<600?B.ac:B.v
 p=A.ch(8)
 o=A.ba(s,e,r).w.a.a<600?150:200
-o=A.dP(A.pW(p,A.qE("http://203.161.48.148:8000/"+c.c,e,B.ei,o,1,e),B.aW),e,e)
+o=A.dP(A.pW(p,A.qE("https://juwel.sobkino.com/"+c.c,e,B.ei,o,1,e),B.aW),e,e)
 p=A.aN(c.b,e,e,e,B.X0,B.cQ,e)
 n=A.ajv(e,e,e,B.by,e,e,!0,e,A.cw(A.b([A.cw(e,e,e,e,e,e,e,e,A.cA(e,e,B.l,e,e,e,e,e,e,e,e,e,e,e,B.Q,e,e,!0,e,e,e,e,e,e,e,e),"\u09aa\u09cd\u09b0\u0995\u09be\u09b6\u09a8\u09c0 :"),A.cw(e,e,e,e,e,e,e,e,A.cA(e,e,B.dO,e,e,e,e,e,e,e,e,16,e,e,B.a8,e,e,!0,e,e,e,e,e,e,e,e)," Assurance Publicatios ")],t.VO),e,e,e,e,e,e,e,e,e),B.aB,e,e,B.a9,B.ax)
 m=A.U(s).ok.at.zL(B.aM,12,B.r)
@@ -44459,7 +44459,7 @@ $S:0}
 A.aqj.prototype={
 $0(){var s=window
 s.toString
-B.Bt.Y3(s,"http://203.161.48.148:8000/"+this.a.ay,"_blank")},
+B.Bt.Y3(s,"https://juwel.sobkino.com/"+this.a.ay,"_blank")},
 $S:0}
 A.aqk.prototype={
 $0(){var s=null,r=this.a,q=this.b,p=r.e.ZW(q),o=A.aCP(B.cF,1),n=A.ch(4)
@@ -44482,7 +44482,7 @@ A.zm.prototype={
 a8(){return new A.Ty()}}
 A.Ty.prototype={
 J(a){var s,r,q,p=this,o=null,n=p.a.c,m=A.ch(12),l=A.b([new A.bs(0,B.M,B.cF,B.hA,10)],t.E),k=A.ba(a,o,t.w).w.a.a<600?110:160,j=t.p
-k=A.fh(B.bk,A.b([A.pW(B.Cd,A.qE("http://203.161.48.148:8000/"+n.c,new A.aq9(),B.mJ,k,1,1/0),B.aW),A.jT(o,A.cE(o,B.Yz,B.q,o,o,new A.c7(B.aq,o,o,A.ch(20),o,o,B.a3),o,o,o,o,B.o7,o,o,o),o,o,8,o,8,o),B.PX],j),B.E,B.aU,o)
+k=A.fh(B.bk,A.b([A.pW(B.Cd,A.qE("https://juwel.sobkino.com/"+n.c,new A.aq9(),B.mJ,k,1,1/0),B.aW),A.jT(o,A.cE(o,B.Yz,B.q,o,o,new A.c7(B.aq,o,o,A.ch(20),o,o,B.a3),o,o,o,o,B.o7,o,o,o),o,o,8,o,8,o),B.PX],j),B.E,B.aU,o)
 s=A.aN(n.b,1,B.aI,o,B.TC,o,o)
 r=B.i.k(n.z)
 r=A.aN(r,o,o,o,A.cA(o,o,B.l,o,o,o,o,o,o,o,o,8,o,o,B.Q,o,o,!0,o,o,o,o,o,o,o,o),o,o)
@@ -44562,7 +44562,7 @@ return A.zA(A.acE(n,n,n,!0,!0,A.co(A.cn(s,B.v,B.o,B.p),n,80),n,n,A.aN("\u09f3 "+
 s=A.ch(6)
 r=k.a
 q=J.dt(r)
-s=A.pW(s,A.qE("http://203.161.48.148:8000/"+q.gdM(r),n,B.ei,80,1,60),B.aW)
+s=A.pW(s,A.qE("https://juwel.sobkino.com/"+q.gdM(r),n,B.ei,80,1,60),B.aW)
 q=q.geO(r)
 q=A.aN(q,n,n,n,B.dn,n,n)
 p=r.gA8()
@@ -44948,7 +44948,7 @@ if(s==null)s=$.b5=B.W
 return new A.Tx(s.dd(0,null,t.dO))}}
 A.Tx.prototype={
 J(a){var s,r=this,q=null,p=r.a.c,o=t.w,n=A.ba(a,q,o).w.a.a<600?110:150,m=A.ba(a,q,o).w.a.a<600?100:150,l=A.ch(12),k=A.b([new A.bs(0,B.M,B.cF,B.hA,10)],t.E),j=A.ch(6),i=A.ba(a,q,o).w.a.a<600?0.9:0.6
-i=A.pW(j,A.qE("http://203.161.48.148:8000/"+p.c,new A.aq2(),B.mJ,q,i,q),B.aW)
+i=A.pW(j,A.qE("https://juwel.sobkino.com/"+p.c,new A.aq2(),B.mJ,q,i,q),B.aW)
 j=t.p
 i=A.c8(A.b([i,B.SC,A.aN(p.b,1,B.aI,q,A.cA(q,q,q,q,q,q,q,q,q,q,q,A.ba(a,q,o).w.a.a<600?10:14,q,q,B.Q,q,q,!0,q,q,q,q,q,q,q,q),q,q),A.cn(A.b([A.aN("\u09f3\u09ee\u09ec\u09e6,",q,q,q,B.lL,q,q),B.Sv,A.aN("\u09f38\u09e7\u09e6,",q,q,q,A.cA(q,q,B.d1,q,B.lE,q,q,q,q,q,q,12,q,q,q,q,q,!0,q,q,q,q,q,q,q,q),q,q)],j),B.v,B.o,B.p)],j),B.ac,B.o,B.p)
 s=A.ch(4)
@@ -44996,7 +44996,7 @@ if(r.gA(0)===0)return A.dP(A.aN("No books found.",s,s,s,s,s,s),s,s)
 return A.BJ(new A.akv(),J.bX(r.gm(0)),s,s,B.av,!1)},
 $S:54}
 A.akv.prototype={
-$2(a,b){var s=null,r=J.aR($.pH().k1.gm(0),b),q=A.qE("http://203.161.48.148:8000/"+r.c,s,s,70,1,s)
+$2(a,b){var s=null,r=J.aR($.pH().k1.gm(0),b),q=A.qE("https://juwel.sobkino.com/"+r.c,s,s,70,1,s)
 return A.acE(s,s,s,!0,!0,s,s,new A.aku(r),A.aN(r.b,s,s,s,s,s,s),q,s,s)},
 $S:351}
 A.aku.prototype={
@@ -45104,7 +45104,7 @@ this.Ae()},
 Ae(){var s=0,r=A.F(t.H),q=this,p
 var $async$Ae=A.B(function(a,b){if(a===1)return A.C(b,r)
 while(true)switch(s){case 0:s=2
-return A.M(A.b1L(A.eI("http://203.161.48.148:8000/api/books/subcategory/"+q.a.c+"/",0,null)),$async$Ae)
+return A.M(A.b1L(A.eI("https://juwel.sobkino.com/api/books/subcategory/"+q.a.c+"/",0,null)),$async$Ae)
 case 2:p=b
 if(p.b===200)q.a3(new A.ayS(q,B.az.di(0,A.a1L(A.a1x(p.e)).di(0,p.w))))
 else{q.a3(new A.ayT(q))
@@ -101476,7 +101476,7 @@ s($,"b3c","aNH",()=>new A.a38())
 r($,"b8g","bz",()=>$.aNH())
 r($,"b7O","aCw",()=>B.Dp)
 s($,"b8F","aCz",()=>new A.aht())
-s($,"b3E","kj",()=>{var q="application/json",p=new A.a5E(),o=A.aRq("http://203.161.48.148:8000/api/",B.nW,A.al(["Content-Type",q,"Accept",q],t.N,t.z),B.nW),n=new A.a5F(A.aFq(),new A.NT(A.b([B.DA],A.as("z<iR?>"))),A.aFq(),new A.a96(51200),!1)
+s($,"b3E","kj",()=>{var q="application/json",p=new A.a5E(),o=A.aRq("https://juwel.sobkino.com/api/",B.nW,A.al(["Content-Type",q,"Accept",q],t.N,t.z),B.nW),n=new A.a5F(A.aFq(),new A.NT(A.b([B.DA],A.as("z<iR?>"))),A.aFq(),new A.a96(51200),!1)
 n.Wh$=o
 n.Wi$=new A.a3a(A.aC(t.m))
 p.a=n
